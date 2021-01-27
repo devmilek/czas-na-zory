@@ -479,7 +479,7 @@ section {
 
 @media (max-width: 720px) {
     nav {
-        padding: 10px 50px !important;
+        padding: 10px 50px;
     }
 
     .hero .hero-image img {
@@ -497,5 +497,37 @@ section {
 
     .service .icon {
         margin-bottom: 16px !important;
+    }
+}
+@media (max-width: 390px) {
+    .hero .hero-content h1 {
+        font-size: 50px;
+    }
+    .hero .hero-content p {
+        font-size: 16px;
+    }
+    .hero .hero-image img {
+        transform: rotate(0);
+        height: 110vw;
+        margin-top: 80px;
+    }
+    .hero .hero-content {
+        margin-top: 40px;
+    }
+    .testimonials > h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .testimonials {
+        padding: 30px 40px;
+    }
+    nav{
+        padding: 10px 20px;
+    }
+    .about .about-content h1 {
+        font-size: 30px;
+    }
+    .about .about-content p {
+        font-size: 16px;
     }
 }
